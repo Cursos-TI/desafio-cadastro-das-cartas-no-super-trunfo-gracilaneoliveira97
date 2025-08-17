@@ -14,16 +14,16 @@ float area2, pib2;
 
 //cadastro da 1 carta
 
-printf("carta 1!\n ");
+printf("\n ---carta 1! ---\n ");
 
-printf("Digite seu Estado:  ");
-scanf("%s", &estado1);
+printf("Digite seu Estado: ");
+scanf("%9s", estado1);
 
-printf("Codigo da carta:  ");
-scanf("%s", &codigo_carta1);
+printf("Codigo da carta: ");
+scanf("%3s", codigo_carta1);
 
 printf("Nome da cidade: ");
-scanf("%s" , &cidade1);
+scanf("%9s", cidade1);
 
 printf("Populaçao: ");
 scanf("%d", &populaçao1);
@@ -34,24 +34,53 @@ scanf("%d", &pontos_turisticos1);
 printf("Area: ");
 scanf("%f", &area1);
 
-printf("Pib: ");
-scanf("%f ",&pib1);
+printf("PIB: ");
+scanf("%f", &pib1); 
+
 //cadastro da carta 2
+printf("\n ---Carta 2!---\n ");
 
-printf("Carta 2!\n ");
+printf("Digite seu Estado: ");
+scanf("%9s", estado2);
 
-printf("Digite seu Estado:  ");
-scanf("%s", &estado2);
+printf("Codigo Da Carta: ");
+scanf("%3s", codigo_carta2);
 
-printf("Codigo Da Carta:  ");
-scanf("%s", &codigo_carta2);
+printf("Nome da cidade: ");
+scanf("%9s", cidade2);
 
-printf("Nome da cidade:  ");
-scanf("%s", &cidade2);
-
-printf("Populaçao:  ");
+printf("Populaçao: ");
 scanf("%d", &populaçao2);
 
+printf("Pontos turisticos: ");
+scanf("%d", &pontos_turisticos2);
+
+printf("Area: ");
+scanf("%f", &area2);
+
+printf("PIB: ");
+scanf("%f", &pib2);
+
+//Exibiçao dos dados da carta 1
+
+printf("\n---Carta 1 ---\n");
+printf("Estado:%9s \n", estado1);
+printf("Codigo da carta: %3s \n", codigo_carta1);
+printf("Nome Da Cidade: %9s \n", cidade1);
+printf("Populacao: %d \n", populaçao1);
+printf("Pontos turisticos: %d \n", pontos_turisticos1);
+printf("Area: %f \n", area1);
+printf("PIB: %f \n", pib1);
+
+//Exibiçao dos dados da carta 2
+
+printf("\n---Carta 2 ---\n");
+printf("Estado:%9s \n", estado2);
+printf("Codigo da Carta: %3s \n", codigo_carta2);
+printf("Nome da Cidade: %9s \n", cidade2);
+printf("Populaçao: %d \n", populaçao2);
+printf("Area: %f \n", area2);
+printf("PIB: %f \n", pib2);
 
 
 
